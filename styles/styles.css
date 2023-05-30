@@ -1,0 +1,30 @@
+body
+{
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    background-color: rgb(134, 160, 181);
+}
+#Toolbar
+{
+    background-color: rgb(212, 215, 218);
+    height: 50px;
+    width: 100%;
+}
+.ToolButtons
+{
+    background-color: rgb(212, 215, 218);
+    margin: 20px;
+}
+#PageSelected
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 30px;
+    border-radius: 10px;
+    background-color:blue;
+    padding: 5px;
+    
+}
