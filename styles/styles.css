@@ -118,23 +118,33 @@ body
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-
+/
 h1 {
   text-align: center;
   color: #333;
 }
 
 
-.about-us {
+.contact-info {
+  display: flex;
+  justify-content: space-between;
   margin-bottom: 20px;
 }
 
-.about-us h2 {
-  margin-bottom: 10px;
+.contact-by-phone,
+.contact-by-email {
+  flex-basis: 45%;
+  text-align: center;
 }
 
-.about-us p {
-  margin-bottom: 5px;
+.contact-by-phone p,
+.contact-by-email p {
+  margin: 5px 0;
+}
+
+.phone-number,
+.email-address {
+  font-weight: bold;
 }
 
 
