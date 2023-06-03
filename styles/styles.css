@@ -1,3 +1,4 @@
+/* CSS of index.html */
 body
 {
     height: 1900px;
@@ -10,11 +11,11 @@ body
 #logo
 {
     z-index: 11;
-    height: 40px;
+    height: 45px;
     position: absolute;
     top: 0%;
     left: 5%;
-    border:3px solid rgb(153, 57, 255) ;
+    border:3px solid rgb(255, 255, 255) ;
     border-radius: 10px;
 }
 #navbar
@@ -23,18 +24,24 @@ body
     background-color: rgb(236, 189, 255);
     position: sticky;
     top: 0;
-    height: 45px;
+    height: 50px;
     width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .first-button
 {
     font-weight: bold;
+    height: 40px;
+    width: 90px;
     text-decoration: none;
-    border:3px solid rgb(153, 57, 255) ;
+    background-color: #dceaff;
     border-radius: 10px;
     margin-left: 50%;
     font-size: 30px;
     color: (0, 0%, 0%);
+    text-align: center;
 }
 .button
 {
@@ -69,7 +76,7 @@ body
 {
     background-color: #dceaff;
     width: 100%;
-    height: 500px;
+    height: 900px;
     font-size: 30px;
 }
 #Second-Banner-Heading
@@ -78,6 +85,7 @@ body
     display: flex;
     align-items: center;
     width: 50%;
+    height: 30%;
 }
 #Second-Banner-Text
 {
@@ -90,7 +98,7 @@ body
 }
 #Learn-more-button
 {
-    background-color: #accdff;
+    background-color: #9ec5ff;
     margin-top: 5%;
     margin-left: 40%;
     align-items: center;
@@ -103,6 +111,25 @@ body
     color: black;
     border-radius: 20px;
 }
+#Third-Banner
+{
+  margin-top: -2%;
+  background: linear-gradient(to bottom left, rgb(236, 189, 255), #afcfff);
+  width: 100%;
+  height: 1200px;
+}
+#EndPage
+{
+  position: absolute;
+  top: 250%;
+  width: 80%;
+  height: 100px;
+  background: linear-gradient(to bottom left, rgb(215, 112, 255), #3f8cff);
+  text-align: end;
+}
+
+
+/* CSS of Contact.html */
 #body {
   background-color: lightblue;
   font-family: Arial, sans-serif;
@@ -118,7 +145,7 @@ body
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-/
+
 h1 {
   text-align: center;
   color: #333;
