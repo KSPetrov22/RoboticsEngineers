@@ -135,75 +135,61 @@ body
   font-family: Arial, sans-serif;
 }
 
+/* Navbar Styles */
+#navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+}
+#images{
+  width: 300px;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
+#logo {
+  width: 40px;
+  margin-right: 10px;
+}
+
+#navbar a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+/* Container Styles */
 .container {
-  max-width: 1920px;
-  margin:  auto;
+  max-width: 600px;
+  margin: 0 auto;
   padding: 20px;
-  
   
 }
 
 
+
+/* Heading Styles */
 h1 {
   text-align: center;
   color: #333;
 }
 
-
+/* Contact Info Styles */
 .contact-info {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   margin-bottom: 20px;
 }
 
 .contact-by-phone,
 .contact-by-email {
-  flex-basis: 45%;
   text-align: center;
 }
 
-.contact-by-phone p,
-.contact-by-email p {
-  margin: 5px 0;
-}
-
-.phone-number,
-.email-address {
-  font-weight: bold;
-}
-
-
-.form-group {
-  margin-bottom: 20px;
-}
-
-.form-group label {
-  display: block;
-  font-weight: bold;
-  margin-bottom: 5px;
-}
-
-
-.form-group input,
-.form-group textarea {
-  width: 100%;
-  padding: 10px;
-  border-radius: 5px;
-  border: 1px solid #ccc;
-}
-
-.form-group textarea {
-  height: 100px;
-}
-
-
-.form-group input[type="submit"] {
-  background-color: lightblue;
-  color: #fff;
-  cursor: pointer;
-}
-
-.form-group input[type="submit"]:hover {
-  background-color: #008cba;
-}
+.contact-by-phone h2
