@@ -1,5 +1,5 @@
 /* CSS of index.html */
-/* Made by Ivailo*/
+
 body
 {
   font-family: Arial, sans-serif;
@@ -137,31 +137,4 @@ body
   height: 100px;
   background: linear-gradient(to bottom left, rgb(232, 174, 255), #b2d1ff);
   text-align: end;
-}
-/* CSS of About.html */
-/* Made by Ivailo*/
-#About-body
-{
-  font-family: Arial, sans-serif;
-  width: 100%;
-  height: 1500px;
-  background-color: white;
-
-}
-#About-Banner
-{
-  background-color: #fee1fa;
-  height: 500px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-#Our-Aim-Banner
-{
-  background-color: #c7ddff;
-  height: 500px;
-  position: relative;
-  top: -50px;
-  text-align: center;
-  justify-content: center;
 }
