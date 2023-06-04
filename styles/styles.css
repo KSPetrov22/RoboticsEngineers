@@ -1,9 +1,8 @@
 /* CSS of index.html */
-
+/* Made by Ivailo*/
 body
 {
-  font-family: Arial, sans-serif;
-    height: 1900px;
+  height: 1600px;
     width: 100%;
     margin: 0;
     background-color: rgb(255, 255, 255);
@@ -25,7 +24,7 @@ body
 #navbar
 {
     z-index: 10;
-    background-color: rgb(243, 217, 253);
+    background-color: rgb(242, 210, 255);
     position: sticky;
     top: 0;
     height: 50px;
@@ -91,10 +90,8 @@ body
 #Second-Banner-Heading
 {
   position: relative;
-  right: 35%;
     width: 100%;
     height: 30%;
-    margin-left: 35%;
 }
 #Second-Banner-Text
 {
@@ -125,16 +122,20 @@ body
 {
   position: relative;
   top: -250px;
-  background: linear-gradient(to bottom left, rgb(241, 207, 255), #d0e3ff);
+  background: linear-gradient(to bottom left, rgb(236, 189, 255), #afcfff);
   width: 100%;
   height: 1200px;
 }
 #EndPage
 {
   position: relative;
-  bottom: 20%;
+  top: -500px;
   width: 100%;
   height: 100px;
-  background: linear-gradient(to bottom left, rgb(232, 174, 255), #b2d1ff);
+  background: linear-gradient(to bottom left, rgb(215, 112, 255), #3f8cff);
   text-align: end;
+}
+h1 {
+  text-align: center;
+  color: #322e2e;
 }
