@@ -1,0 +1,72 @@
+#navbar
+{
+    z-index: 10;
+    background-color: rgb(242, 210, 255);
+    position: sticky;
+    top: 0;
+    height: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#logo
+{
+    z-index: 11;
+    height: 45px;
+    position: relative;
+    top: 0%;
+    left: 2%;
+    border:3px solid rgb(255, 255, 255) ;
+    border-radius: 10px;
+}
+.first-button
+{
+    height: 40px;
+    width: 90px;
+    text-decoration: none;
+    margin-left: 50%;
+    font-size: 30px;
+    color: black;
+    text-align: center;
+}
+.About-button
+{
+    margin-left: 20px;
+    font-weight: bold;
+    height: 40px;
+    width: 90px;
+    text-decoration: none;
+    background-color: #dceaff;
+    border-radius: 10px;
+    font-size: 30px;
+    color: (0, 0%, 0%);
+    text-align: center;
+}
+.button
+{
+    text-decoration: none;
+    margin-left: 20px;
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+}
+
+#About-Banner
+{
+  background-color: #fee1fa;
+  height: 500px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  align-items: center;
+  justify-content: center;
+}
+
+#Our-Aim-Banner
+{
+  background-color: #c7ddff;
+  height: 500px;
+  position: relative;
+  top: -50px;
+  text-align: center;
+}
