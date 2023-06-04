@@ -1,5 +1,5 @@
 /* CSS of index.html */
-/* Made by Ivailo*/
+
 body
 {
     height: 1900px;
@@ -137,76 +137,100 @@ body
   background: linear-gradient(to bottom left, rgb(215, 112, 255), #3f8cff);
   text-align: end;
 }
-/* CSS of Aboutus.html */
-/* Made by Ivailo*/
 
 
 
 
 
 
-/* CSS of Contact.html */
-/* Made by Kris and redacted by Ivailo*/
+
+
 #body {
-  background-color: lightblue;
+  background-color: rgb(242, 210, 255);
   font-family: Arial, sans-serif;
+
+}
+#fourth-button{
+  background-color: rgb(242, 210, 255);
+  border-radius: 5px;
+  padding: 8px 16px;
+  transition: background-color 0.3s
 }
 
-/* Navbar Styles */
-#navbar {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: #333;
-  color: #fff;
-  padding: 10px;
-}
-#images{
-  width: 300px;
-  margin-bottom: 20px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
 
-#logo {
-  width: 40px;
-  margin-right: 10px;
-}
 
-#navbar a {
-  color: #fff;
-  text-decoration: none;
-  margin: 0 10px;
-}
 
-/* Container Styles */
 .container {
-  max-width: 600px;
+  max-width: 1000px;
   margin: 0 auto;
   padding: 20px;
-  
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 
-
-/* Heading Styles */
 h1 {
   text-align: center;
-  color: #333;
+  color: #322e2e;
 }
 
-/* Contact Info Styles */
+
 .contact-info {
   display: flex;
   justify-content: space-between;
-  align-items: center;
   margin-bottom: 20px;
 }
 
 .contact-by-phone,
 .contact-by-email {
+  flex-basis: 45%;
   text-align: center;
 }
+#Images{
+  margin-bottom: 20px;
+  width: 300px;
+}
 
-.contact-by-phone h2
+.contact-by-phone p,
+.contact-by-email p {
+  margin: 5px 0;
+}
+
+.phone-number,
+.email-address {
+  font-weight: bold;
+}
+
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.form-group textarea {
+  height: 100px;
+}
+
+
+.form-group input[type="submit"] {
+  background-color: rgb(242, 210, 255);
+  color: #c91515;
+  cursor: pointer;
+}
+
+
