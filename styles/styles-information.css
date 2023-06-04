@@ -1,5 +1,6 @@
 #body-1{
     width: 1920px;
+    font-family: Arial, sans-serif;
 }
 .section {
     position: relative;
@@ -46,7 +47,7 @@
 {
     margin-left: 2%;
     text-decoration: none;
-    margin-left: 20px;
+    margin-left: 50%;
     font-size: 30px;
     color: rgb(0, 0, 0); 
 }
@@ -62,11 +63,11 @@
   {
     font-weight: bold;
       height: 40px;
-      width: 125px;
+      width: 200px;
       text-decoration: none;
       background-color: #dceaff;
       border-radius: 10px;
-      margin-left: 2%;
+      margin-left: 20px;
       font-size: 30px;
       color: (0, 0%, 0%);
       text-align: center;
