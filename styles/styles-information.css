@@ -17,6 +17,12 @@
   height: 2px;
   transform-origin: left;
 }
+#sec-1{
+  background-color: #ff88f9;
+}
+#sec-2{
+  background-color: aqua;
+}
 
 .line1::before {
   background-color: #000;
