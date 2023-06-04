@@ -71,7 +71,7 @@ body
     height: 150px;
     width: 45%;
     position: relative;
-    bottom: 400px;
+    bottom: 250px;
     left: 27%;
     background-color: rgba(0, 0, 0, 0.5);
     color: white;
@@ -87,7 +87,7 @@ body
     top: -10%;
     left: 15%;
     width: 70%;
-    background-color: #dceaff;
+    background-color: #dce9ff;
     height: 900px;
     font-size: 30px;
 }
@@ -131,15 +131,64 @@ body
   background: linear-gradient(to bottom left, rgb(236, 189, 255), #afcfff);
   height: 1200px;
 }
+#OurTechImg1
+{
+  position: relative;
+  top: 20%;
+  left: 5%;
+  height: 250px;
+  width: 300px;
+  border-radius: 20px;
+  opacity: 0.5;
+}
+#OurTechImg2
+{
+  position: relative;
+  top: -11%;
+  left: 35%;
+  height: 300px;
+  width: 400px;
+  border-radius: 20px;
+  opacity: 0.5;
+  filter: brightness(0.4);
+}
+#OurTechimg2text
+{
+  position: relative;
+  top: 5%;
+  left: 43.5%;
+  color: rgb(0, 0, 0);
+}
+#OurTechImg3
+{
+  position: relative;
+  top: -13.5%;
+  left: 40%;
+  height: 250px;
+  width: 300px;
+  border-radius: 20px;
+  opacity: 0.5;
+}
+.dot
+{
+  position: relative;
+  top: -7%;
+  left: 40%;
+    width: 20px;
+    height: 20px;
+    background-color: black;
+    border-radius: 50%;  
+}
 #EndPage
 {
   position: relative;
-    top: -15%;
+    top: -25%;
     left: 15%;
     width: 70%;
   height: 100px;
   background: linear-gradient(to bottom left, rgb(215, 112, 255), #3f8cff);
   text-align: end;
+  
 }
 h1 {
   text-align: center;
