@@ -5,8 +5,7 @@
 }
 .section {
   position: relative;
-  padding: 20px;
-  padding-bottom: 350px;
+  padding: 200px;
 }
 
 .section::before {
@@ -16,24 +15,29 @@
   left: 0;
   width: 100%;
   height: 2px;
-  background-color: #000;
   transform-origin: left;
 }
 
-.section:nth-child(even)::before {
-  transform: skewY(5deg);
+.line1::before {
+  background-color: #000;
+  transform: skewY(0deg);
 }
 
-.section:nth-child(odd)::before {
-  transform: skewY(-4deg);
+.line2::before {
+  background-color: #ff0000;
+  transform: skewY(-3deg);
 }
-#sec-1{
-  background-color: pink;
-  transform: skewY(-4deg);
-  text-decoration: none;
-  text-align: 
 
+.line3::before {
+  background-color: #00ff00;
+  transform: skewY(4deg);
 }
+
+.line4::before {
+  background-color: #0000ff;
+  transform: skewY(-5deg);
+}
+
   #logo
 {
     z-index: 11;
