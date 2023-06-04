@@ -1,36 +1,49 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Contact Us</title>
+  <title id="contact">Contact Us</title>
   <link rel="stylesheet" type="text/css" href="../styles/styles.css">
 </head>
 <body id="body">
-  <nav id="navbar">
-    <img id="logo" src="../images/Logo.png" alt="Logo">
-    <a class="first-button" href="index.html">Home</a>
-    <a class="button" href="About.html">About</a>
-    <a class="button" href="Information.html">Services</a>
-    <a class="button" href="Contact.html">Contact</a>
-  </nav>
-
   <div class="container">
+    <nav id="navbar">
+      <img id="logo" src="../Images/Logo.png" alt="Logo">
+      <a class="first-button" href="index.html">Home</a>
+      <a class="button" href="About.html">About</a>
+      <a class="button" href="Services.html">Services</a>
+      <a class="fourth-button" href="Contact.html">Contact</a>
+  </nav>
     <h1>Contact Us</h1>
     <div class="contact-info">
       <div class="contact-by-phone">
         <h2>By Phone</h2>
-        <img id="images" src="../images/phone.png" >
+        <img id="Images" src="../images/phone.png" alt="Phone Icon">
         <p>Phone Number:</p>
         <p class="phone-number">0889 23 67 23</p>
       </div>
       <div class="contact-by-email">
         <h2>By Email</h2>
-        <img id="images" src="../images/email.png" >
+        <img id="Images" src="../images/email.png" alt="Email Icon">
         <p>Email:</p>
         <p class="email-address">RobotitssEngineers@gmail.com</p>
       </div>
     </div>
     <form>
-      
+      <div class="form-group">
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" placeholder="Enter your name" required>
+      </div>
+      <div class="form-group">
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" placeholder="Enter your email" required>
+      </div>
+      <div class="form-group">
+        <label for="comment">Comment</label>
+        <textarea id="comment" name="comment" placeholder="Enter your comment" required></textarea>
+      </div>
+      <div class="form-group">
+        <input type="submit" value="Submit">
+      </div>
     </form>
   </div>
 </body>
