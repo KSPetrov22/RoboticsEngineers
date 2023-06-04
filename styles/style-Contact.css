@@ -1,0 +1,134 @@
+/* CSS of Contact.html */
+/* Made by Kris*/
+
+#body {
+    background: linear-gradient(to bottom left, rgb(241, 207, 255), #d0e3ff);
+    font-family: Arial, sans-serif;
+  
+  }
+  #navbar
+  {
+      z-index: 10;
+      background-color: rgb(243, 217, 253);
+      position: sticky;
+      top: 0;
+      height: 50px;
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+  #logo
+  {
+      z-index: 11;
+      height: 45px;
+      position: relative;
+      top: 0%;
+      left: 2%;
+      border:3px solid rgb(255, 255, 255) ;
+      border-radius: 10px;
+  }
+  .button
+{
+    text-decoration: none;
+    margin-left: 20px;
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+}
+
+  .fourth-button
+  {
+    font-weight: bold;
+      height: 40px;
+      width: 125px;
+      text-decoration: none;
+      background-color: #dceaff;
+      border-radius: 10px;
+      margin-left: 2%;
+      font-size: 30px;
+      color: (0, 0%, 0%);
+      text-align: center;
+  }
+  .home-button
+  {
+      height: 40px;
+      width: 90px;
+      text-decoration: none;
+      margin-left: 30%;
+      font-size: 30px;
+      color: black;
+      text-align: center;
+  }
+  .container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  
+  h1 {
+    text-align: center;
+    color: #322e2e;
+  }
+  
+  
+  .contact-info {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .contact-by-phone,
+  .contact-by-email {
+    flex-basis: 45%;
+    text-align: center;
+  }
+  #Images{
+    margin-bottom: 20px;
+    width: 300px;
+  }
+  
+  .contact-by-phone p,
+  .contact-by-email p {
+    margin: 5px 0;
+  }
+  
+  .phone-number,
+  .email-address {
+    font-weight: bold;
+  }
+  
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .form-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  
+  .form-group input,
+  .form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  .form-group textarea {
+    height: 100px;
+  }
+  
+  
+  .form-group input[type="submit"] {
+    background-color: rgb(242, 210, 255);
+    color: #c91515;
+    cursor: pointer;
+  }
+  
