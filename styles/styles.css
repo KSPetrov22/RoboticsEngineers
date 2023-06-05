@@ -2,25 +2,23 @@
 /* Made by Ivailo*/
 body
 {
-  background: linear-gradient(to bottom left, rgb(241, 207, 255), #d0e3ff);
+  background: linear-gradient(to bottom left, rgb(241, 218, 252), #d0e2ff);
     font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
 }
 #container {
-  background: linear-gradient(to bottom left, rgb(241, 207, 255), #d0e3ff);
-    font-family: Arial, sans-serif;
-  max-width: 80%;
+  position: relative;
+  background-color: #d0e3ff;
+  max-width: 100%;
   margin: 0 auto;
-  padding: 20px;
-  background-color: #fff;
-  border-radius: 10px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 #navbar
 {
     z-index: 10;
     background-color: rgb(248, 230, 255);
     position: sticky;
-    top: 0;
+    top:0;
     height: 50px;
     width: 100%;
     display: flex;
@@ -58,6 +56,8 @@ body
 }
 .Banner
 {
+  margin: 0;
+  padding: 0;
   position: relative;
   max-width: 100%;
   margin: 0 auto;
@@ -67,7 +67,7 @@ body
 {
   display: block;
   width: 100%;
-  height: auto;
+  height: 600px;
 }
 #Banner-Text-One
 {
@@ -76,9 +76,152 @@ body
   left: 50%;
   transform: translate(-50%, -50%);
   background-color: black;
-  height: 20%;
+  height: 10%;
   width: 40%;
   border-radius: 20px;
   text-align: center;
+  font-size:large;
   color: #fff;
+  opacity: 0.7;
+}
+#Second-Banner
+{
+  margin: 0;
+  padding: 0;
+  margin-top: -10px;
+  position: relative;
+  max-width: 100%;
+  height: 800px;
+  margin: 0 auto;
+  text-align: center;
+  background-color: #d0e3ff;
+}
+#Second-Banner-Heading
+{
+  text-align: center;
+  color: #000000;
+  font-size: 50px;
+}
+#Second-Banner-Text
+{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 40%;
+  width: 40%;
+  border-radius: 20px;
+  font-size: 2em;
+  text-align: center;
+  color: #000000;
+}
+#Learn-more-button
+{
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  text-align: center;
+  color: #000000;
+  font-size: 40px;
+  transform: translate(-50%, -50%);
+  max-height: 20%;
+  min-height: 15%;
+  width: 20%;
+  background-color: #98c1ff;
+  text-decoration: none;
+  border-radius: 20px;
+}
+#Third-Banner
+{
+  margin: 0;
+  padding: 0;
+  margin-top: -10px;
+  position: relative;
+  max-width: 100%;
+  height: 800px;
+  margin: 0 auto;
+  text-align: center;
+  background: linear-gradient(to bottom left, rgb(241, 207, 255), #d0e3ff);
+}
+#OurTech1
+{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 30%;
+  width: 30%;
+  border-radius: 20px;
+}
+#OurTechImg1
+{
+  position: absolute;
+  top: 50%;
+  left: 10%;
+  transform: translate(-10%, -50%);
+  height: auto;
+  width: 20%;
+  border-radius: 20px;
+  opacity: 0.5;
+}
+#OurTech2
+{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 30%;
+  width: 30%;
+  border-radius: 20px;
+}
+#OurTechImg2
+{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: auto;
+  width: 20%;
+  border-radius: 20px;
+  font-size: 2em;
+  opacity: 0.6;
+  filter: brightness(0.7);
+}
+#OurTechimg2text
+{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 40px;
+  text-align: center;
+  font-size:large;
+  color: #000000;
+}
+#OurTech3
+{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 30%;
+  width: 20%;
+  border-radius: 20px;
+  font-size: 2em;
+}
+#OurTechImg3
+{
+  position: absolute;
+  top: 50%;
+  left: 90%;
+  transform: translate(-90%, -50%);
+  height: auto;
+  width: 20%;
+  border-radius: 20px;
+  font-size: 2em;
+  opacity: 0.5;
+}
+#EndPage
+{
+  text-align: end;
 }
