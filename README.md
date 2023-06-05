@@ -8,8 +8,13 @@
                   We build robots that help with global warming, shipping which in turn helps with solving 
                              world hunger, housework, everyday difficulties, and more. 
                       
-# Meet our team!
-
-
+# Meet our team
+<img src="Images/Kaloqn.png"/>🟦 Kaloyan Petrov (Scrum Trainer)
+<br> <br>
+<img src="Images/Gabriel.png"/>🟥 Gabriel Ianchev (Designer)
+<br> <br>
+<img src="Images/Ivailo.jpg"/>🟨 Ivailo Lalev (Developer)
+<br> <br>
+<img src="Images/Kris.png"/>🟩 Kristian Rusev (Developer)
 # Used programms
 
