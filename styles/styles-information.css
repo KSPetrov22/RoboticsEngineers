@@ -2,7 +2,7 @@
     width: 1920px;
     height: 1800px;
     font-family: Arial, sans-serif;
-    background: linear-gradient(to bottom left, rgb(241, 207, 255), #d0e3ff);
+   
 }
 .section {
   position: relative;
@@ -28,38 +28,20 @@
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   width: 1000px;
 }
-}
+
 
   
-#sec-1{
-  background-color: #f642ed;
-  border-color: rgb(220, 112, 247)
+#sec1{
+  background-color: rgb(241, 207, 255);
+  
   
 }
-#sec-2{
-  background-color: rgb(220, 112, 247);
-  border-color: #f642ed;
+#sec2{
+  background-color:  rgb(248, 230, 255);
+  
 }
 
-.line1::before {
-  background-color: rgb(220, 112, 247);
-  transform: skewY(0deg);
-}
 
-.line2::before {
-  background-color: rgb(220, 112, 247);
-  transform: skewY(-3deg);
-}
-
-.line3::before {
-  background-color:rgb(220, 112, 247);
-  transform: skewY(4deg);
-}
-
-.line4::before {
-  background-color: rgb(220, 112, 247);
-  transform: skewY(-5deg);
-}
 #pic{
   width: 300px;
   height: 300px;
