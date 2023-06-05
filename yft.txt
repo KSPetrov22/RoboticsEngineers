@@ -1,13 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Information</title>
+  <link rel="stylesheet" type="text/css" href="../styles/styles-information.css">
+</head>
+<body id="body-1">
+    <nav id="navbar">
+        <img id="logo" src="../Images/Logo.png" alt="Logo">
+        <a class="first-button" href="../index.html">Home</a>
+        <a class="button" href="About.html">About</a>
+        <a class="third-button" href="#">Information</a>
+        <a class="button" href="Contact.html">Contact</a>
+    </nav>
+    <div id="sec1"class="section line1">
+      <h2>Секция 1</h2>
+      <p>Съдържание на секция 1</p>
+    </div>
+    <div id="sec2"class="section line2">
+      <h2>Секция 2</h2>
+      <p>Съдържание на секция 2</p>
+    </div>
+    <div id="sec1"class="section line3">
+      <h2>Секция 3</h2>
+      <p>Съдържание на секция 3</p>
+    </div>
+    <div id="sec2"class="section line4">
+      <h2>Секция 4</h2>
+      <p>Съдържание на секция 4</p>
+    </div>
+    
+
+    
+    
+    </body>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 #body-1{
     width: 1920px;
     height: 1800px;
     font-family: Arial, sans-serif;
-    background: linear-gradient(to bottom left, rgb(241, 207, 255), #d0e3ff);
 }
 .section {
   position: relative;
   padding: 200px;
-  border: 4px solid transparent;
+  border: 1px solid transparent;
 }
 
 .section::before {
@@ -19,18 +76,6 @@
   height: 1px;
   transform-origin: left;
 }
-#ppp{
-  
-  margin-right: 20px;
-  padding: 20px;
-  background-color: #fff;
-  border-radius: 10px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  width: 1000px;
-}
-}
-
-  
 #sec-1{
   background-color: #f642ed;
   border-color: rgb(220, 112, 247)
@@ -60,11 +105,6 @@
   background-color: rgb(220, 112, 247);
   transform: skewY(-5deg);
 }
-#pic{
-  width: 300px;
-  height: 300px;
-  margin-left:25% ;
-}
 
   #logo
 {
@@ -80,15 +120,8 @@
 /* Nav bar Group */
 #navbar
 {
-  
-  margin: 0 auto;
-  padding: 20px;
-  background-color: #fff;
-  border-radius: 10px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-
     z-index: 10;
-    background-color: #d0e3ff;
+    background-color: rgb(242, 210, 255);
     position: fixed;
     top: 0;
     
@@ -127,3 +160,4 @@
       color: (0, 0%, 0%);
       text-align: center;
   }
+
