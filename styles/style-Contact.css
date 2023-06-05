@@ -9,9 +9,9 @@
   #navbar
   {
       z-index: 10;
-      background-color: rgb(243, 217, 253);
+      background-color: rgb(248, 230, 255);
       position: sticky;
-      top: 0;
+      top:0;
       height: 50px;
       width: 100%;
       display: flex;
@@ -71,12 +71,11 @@
       text-align: center;
   }
   .container {
-    max-width: 1000px;
+    max-width: 100%;
     margin: 0 auto;
     padding: 20px;
-    background-color: #fff;
+    background: linear-gradient(to bottom left, rgb(236, 205, 251), #d0e2ff);
     border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   }
   
   
@@ -129,7 +128,7 @@
     width: 100%;
     padding: 10px;
     border-radius: 5px;
-    border: 1px solid #ccc;
+    border: 1px solid #a3b7ff;
   }
   
   .form-group textarea {
@@ -138,8 +137,8 @@
   
   
   .form-group input[type="submit"] {
-    background-color: rgb(242, 210, 255);
-    color: #c91515;
+    background-color: rgb(241, 206, 255);
+    color: #8f81ff;
     cursor: pointer;
   }
   
