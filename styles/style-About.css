@@ -107,7 +107,8 @@ body
     width: 300px;
     height: 400px;
     border-radius: 20px;
-    background-color: rgb(212, 212, 99);
+    background-color: rgba(189, 189, 81, 0.57);
+    opacity: 0.8;
 }
 #IvailoPic
 {
@@ -141,7 +142,8 @@ body
     width: 300px;
     height: 400px;
     border-radius: 20px;
-    background-color: rgb(71, 98, 180);
+    background-color: rgba(71, 98, 180, 0.492);
+    opacity: 0.8;
 }
 #KaloqnPic
 {
@@ -175,7 +177,8 @@ body
     width: 300px;
     height: 400px;
     border-radius: 20px;
-    background-color: rgb(180, 47, 47);
+    background-color: rgba(180, 47, 47, 0.497);
+    opacity: 0.8;
 }
 #GabrielPic
 {
@@ -209,7 +212,8 @@ body
     width: 300px;
     height: 400px;
     border-radius: 20px;
-    background-color: rgb(98, 180, 98);
+    background-color: rgba(98, 180, 98, 0.504);
+    opacity: 0.8;
 }
 #KrisPic
 {
