@@ -1,19 +1,14 @@
 body
 {
-    background-color: #f1d0ff;
-      margin: 0;
-      margin-left: 0%;
-      margin-right: 0%;
-      font-family: Arial, sans-serif;
-      margin: 0;
+  background: linear-gradient(to bottom left, rgb(241, 218, 252), #d0e2ff);
+    font-family: Arial, sans-serif;
+    margin: 0;
     padding: 0;
 }
 #container
 {
-  margin: 0;
-  padding: 0;
   position: relative;
-  background-color: #f1d0ff;
+  background-color: #d0e3ff;
   max-width: 100%;
   margin: 0 auto;
 }
@@ -50,7 +45,7 @@ body
 }
 .About-button
 {
-    margin-left: 20px;
+    margin-left: 15px;
     width: 90px;
     text-decoration: none;
     background-color: #dceaff;

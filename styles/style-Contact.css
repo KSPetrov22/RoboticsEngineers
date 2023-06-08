@@ -1,11 +1,13 @@
 /* CSS of Contact.html */
 /* Made by Kris*/
 
-#body {
-    background: linear-gradient(to bottom left, rgb(241, 207, 255), #d0e3ff);
+body
+{
+  background: linear-gradient(to bottom left, rgb(241, 218, 252), #d0e2ff);
     font-family: Arial, sans-serif;
-  
-  }
+    margin: 0;
+    padding: 0;
+}
   #navbar
   {
       z-index: 10;
@@ -67,10 +69,9 @@
       text-align: center;
   }
   .container {
-    max-width: 100%;
+    max-width: 60%;
     margin: 0 auto;
     padding: 20px;
-    background: linear-gradient(to bottom left, rgb(236, 205, 251), #d0e2ff);
     border-radius: 10px;
   }
   

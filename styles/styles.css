@@ -7,52 +7,60 @@ body
     margin: 0;
     padding: 0;
 }
+/* The main container */
 #container {
   position: relative;
   background-color: #d0e3ff;
   max-width: 100%;
   margin: 0 auto;
+  min-height: 2000px;
 }
+/* navigation bar group \/ */
 #navbar
 {
-    z-index: 10;
-    background-color: rgb(248, 230, 255);
-    position: sticky;
-    top:0;
-    height: 50px;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  z-index: 10;
+  background-color: rgb(248, 230, 255);
+  position: sticky;
+  top:0;
+  height: 50px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
+/* Logo on the navigation bar */
 #logo
 {
-    z-index: 11;
-    height: 45px;
-    position: relative;
-    top: 0%;
-    left: 2%;
-    border:3px solid rgb(255, 255, 255) ;
-    border-radius: 10px;
+  z-index: 11;
+  height: 45px;
+  position: relative;
+  top: 0%;
+  left: 2%;
+  border:3px solid rgb(255, 255, 255) ;
+  border-radius: 10px;
 }
+/* Selected button */
 .first-button
 {
+  margin-left: 2%;
   background-color: #dceaff;
-      border-radius: 10px;
-    width: 90px;
+  border-radius: 7px;
     text-decoration: none;
     margin-left: 30%;
     font-size: 30px;
-    color: black;
-    text-align: center;
+    color: rgb(0, 0, 0); 
 }
+/* Regular button */
   .button
 {
-    text-decoration: none;
-    margin-left: 20px;
-    font-size: 30px;
-    color: rgb(0, 0, 0);
+  text-decoration: none;
+  margin-left: 20px;
+  font-size: 30px;
+  color: rgb(0, 0, 0);
 }
+/* navigation bar group /\ */
+
+/* First banner \/ */
 .Banner
 {
   margin: 0;
@@ -62,12 +70,14 @@ body
   margin: 0 auto;
   text-align: center;
 }
+/* First banner image */
 #First-Banner-img
 {
   display: block;
   width: 100%;
   height: 600px;
 }
+/* First banner text */
 #Banner-Text-One
 {
   position: absolute;
@@ -83,6 +93,9 @@ body
   color: #fff;
   opacity: 0.7;
 }
+/* First banner /\ */
+
+/* Second banner \/ */
 #Second-Banner
 {
   margin: 0;
@@ -95,12 +108,14 @@ body
   text-align: center;
   background-color: #d0e3ff;
 }
+/* Second banner Heading */
 #Second-Banner-Heading
 {
   text-align: center;
   color: #000000;
   font-size: 50px;
 }
+/* Second banner text */
 #Second-Banner-Text
 {
   position: absolute;
@@ -114,6 +129,7 @@ body
   text-align: center;
   color: #000000;
 }
+/* Learn more button */
 #Learn-more-button
 {
   position: absolute;
@@ -130,6 +146,9 @@ body
   text-decoration: none;
   border-radius: 20px;
 }
+/* Second banner /\ */
+
+/* Third banner \/ */
 #Third-Banner
 {
   margin: 0;
@@ -142,6 +161,7 @@ body
   text-align: center;
   background: linear-gradient(to bottom left, rgb(241, 207, 255), #d0e3ff);
 }
+/* Our tech 1 button container  */
 #OurTech1
 {
   position: absolute;
@@ -152,6 +172,7 @@ body
   width: 30%;
   border-radius: 20px;
 }
+/* Our tech 1 image */
 #OurTechImg1
 {
   position: absolute;
@@ -163,6 +184,7 @@ body
   border-radius: 20px;
   opacity: 0.5;
 }
+/* Our tech 2 button container  */
 #OurTech2
 {
   position: absolute;
@@ -173,6 +195,7 @@ body
   width: 30%;
   border-radius: 20px;
 }
+/* Our tech 2 image */
 #OurTechImg2
 {
   position: absolute;
@@ -186,6 +209,7 @@ body
   opacity: 0.6;
   filter: brightness(0.7);
 }
+/* Our tech 2 text in the image */
 #OurTechimg2text
 {
   position: absolute;
@@ -197,6 +221,7 @@ body
   font-size:large;
   color: #000000;
 }
+/* Our tech 3 button container  */
 #OurTech3
 {
   position: absolute;
@@ -208,6 +233,7 @@ body
   border-radius: 20px;
   font-size: 2em;
 }
+/* Our tech 3 image */
 #OurTechImg3
 {
   position: absolute;
@@ -220,6 +246,7 @@ body
   font-size: 2em;
   opacity: 0.5;
 }
+/* Third banner /\ */
 #EndPage
 {
   text-align: end;
